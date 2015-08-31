@@ -1,0 +1,177 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: black;
+    padding: 20px 60px 20px 60px;
+}
+
+form {
+    float: right;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.form-control:hover {
+    border-color: #0393ff;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #0393ff;
+    box-shadow: none;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #1A77FF;
+    color: white;
+    border-radius: 0;
+}
+
+.btn:hover {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #1A77FF;
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.main {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg);
+    background-size: cover;
+    color: white;
+    height: 100%;
+    padding: 40px 40px 40px 40px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 20px 40px 20px;
+}
+
+.footer ul {
+    display: inline;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+.c {
+    float: right;
+}
+
+
+/*--------------------------------------------------------*/
+
+
+/*NAV*/
+
+.navbar-default {
+    background-color: #152230;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    cursor: pointer;
+    background-color: #1a77ff;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #1a77ff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #1a77ff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1a77ff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #1a77ff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #1a77ff;
+    }
+}
